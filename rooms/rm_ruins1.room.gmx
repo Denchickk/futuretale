@@ -66,8 +66,8 @@ discord_update_presence("The Ruins - Rules Sign", "", "theruins", "futuredead");
     <instance objName="obj_solid" x="20" y="200" name="inst_4D39D565" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_solid" x="120" y="200" name="inst_F91C9B8A" locked="0" code="" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_solid" x="180" y="20" name="inst_2C322A81" locked="0" code="" scaleX="0.800000011920929" scaleY="4.25" colour="4294967295" rotation="0"/>
-    <instance objName="obj_player" x="100" y="199" name="inst_B3C45C68" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_exita" x="100" y="210" name="inst_C4C40925" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_player" x="100" y="180" name="inst_B3C45C68" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_exita" x="100" y="200" name="inst_C4C40925" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_door" x="75" y="255" name="inst_A571C8D3" locked="0" code="whichroom = rm_area2&#xA;whichexit = 1;&#xA;" scaleX="2.70000004768372" scaleY="0.899999976158142" colour="4294967295" rotation="0"/>
     <instance objName="obj_solid" x="20" y="20" name="inst_57E0B4CE" locked="0" code="" scaleX="3" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_solid" x="120" y="20" name="inst_435BD8C3" locked="0" code="" scaleX="3" scaleY="2" colour="4294967295" rotation="0"/>
