@@ -81,7 +81,8 @@ instance_create(view_xview,view_yview,obj_fadein);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>chat = false;
+            <string>/// disable chat
+chat = false;
 </string>
           </argument>
         </arguments>
@@ -102,7 +103,8 @@ instance_create(view_xview,view_yview,obj_fadein);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>name = gms_self_name()
+            <string>/// check name
+name = gms_self_name()
 </string>
           </argument>
         </arguments>
@@ -123,7 +125,8 @@ instance_create(view_xview,view_yview,obj_fadein);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>vip = 0;
+            <string>/// vip
+vip = 0;
 </string>
           </argument>
         </arguments>
@@ -144,7 +147,8 @@ instance_create(view_xview,view_yview,obj_fadein);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if gms_self_admin_rights()
+            <string>/// enable debug if admin
+if gms_self_admin_rights()
 {
 global.debug = true;
 }
@@ -872,7 +876,7 @@ global.load = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>// Draw Name
+            <string>/// Draw Name
 draw_set_font(fnt_textbox);
 draw_set_halign(fa_center)
 draw_set_colour(c_white);
@@ -901,26 +905,6 @@ if name = "HatsuneGrass"
 //draw the text
 draw_text(x, y - 20 - sprite_yoffset, name);
 </string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string></string>
           </argument>
         </arguments>
       </action>
