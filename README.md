@@ -1,4 +1,4 @@
-# futuretale
+# futuretale-2019
 
 Some shitty legacy FT source code from like 2018-2019 (GMS1)
 
